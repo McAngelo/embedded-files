@@ -2,7 +2,7 @@
   "name": "embedded-files",
   "version": "1.0.0",
   "description": "This is a test script of the embedded files application",
-  "main": "app_server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,10 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.8.1"
   }
 }

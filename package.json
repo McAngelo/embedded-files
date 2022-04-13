@@ -1,0 +1,15 @@
+{
+  "name": "embedded-files",
+  "version": "1.0.0",
+  "description": "This is a test script of the embedded files application",
+  "main": "app_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Kwame Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
